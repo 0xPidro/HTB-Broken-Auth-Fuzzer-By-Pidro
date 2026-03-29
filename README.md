@@ -13,8 +13,7 @@ A custom Bash wrapper for `ffuf` designed to perform nested brute-forcing (User 
 - A valid `PHPSESSID` cookie from the target lab.
 
 ## 📖 Usage
-1. Make the script executable:
+1. Make the script executable, then run the script by providing a user list and a password list:
    ```bash
-   chmod +x htb_broken_auth.sh
-```bash
-$ ./htb_broken_auth.sh users.txt passwords.txt
+   $ chmod +x htb_broken_auth.sh
+   $ ./htb_broken_auth.sh users.txt passwords.txt
