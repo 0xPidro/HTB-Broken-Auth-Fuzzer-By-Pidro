@@ -16,3 +16,5 @@ A custom Bash wrapper for `ffuf` designed to perform nested brute-forcing (User 
 1. Make the script executable:
    ```bash
    chmod +x htb_broken_auth.sh
+```bash
+$ ./htb_broken_auth.sh users.txt passwords.txt
